@@ -1,0 +1,8 @@
+1- Github button as icon.
+2- Online search box suggestions
+3- Code to pull the contents of the mascots directory
+4- .json file for configs;
+	A- Mascot file names
+	B- Username
+	C- Subtitle
+5- Adapt the readme.md file to my fork

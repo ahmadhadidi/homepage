@@ -2,18 +2,22 @@
     This work is free. You can redistribute it and/or modify it under the
     terms of the Do What The Fuck You Want To Public License, Version 2,
     as published by Sam Hocevar. See the COPYING file for more details. */
+@font-face { font-family: "Muli Light"; src: url('Muli-Light.ttf'); }
+
+
 html {
     height: 100%;
     margin: 0;
     padding: 0;
     font-size: 0;
+	font-family: 'Muli Light', sans-serif;
 }
+
 body {
     height: 100%;
     margin: 0;
     padding: 0;
     font-size: 0;
-    font-family: Tahoma;
     text-align: center;
     border: 0;
 }
@@ -21,7 +25,8 @@ body {
 /* .mascot and .plain will be added to element 'main' by javascript in
     addition to a random mascot */
 .mascot {
-    padding: 20px 20px 20px 250px;
+    padding: 0px 0px 0px 0px;
+    width: 0px;
 }
 
 .plain {
@@ -30,13 +35,14 @@ body {
 
 main {
     display: inline-block;
-    min-width: 500px;
-    font-size: 12px;
+    min-width: 1000px;
+    font-size: 10px;
     background-size: contain;
     background-repeat: no-repeat;
     border-width: 1px;
     border-style: solid;
     margin: 10vh 0 0 0;
+
 }
 
 header {
@@ -45,18 +51,20 @@ header {
 
 h1 {
     letter-spacing: 2px;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: normal;
     text-align: center;
     padding: 0;
-    margin: 0;
+    margin: 10px;
 }
 
 .subtitle {
     text-align: center;
     letter-spacing: 2px;
     padding: 0;
+    font-size: 15px;
     margin: 0;
+    
 }
 
 .searchContainer {
@@ -66,7 +74,7 @@ h1 {
 
 .searchForm {
     display: inline-block;
-    margin: 0 10px;
+    margin: 0 20px;
 }
 
 .searchBar::-webkit-input-placeholder {
@@ -74,31 +82,34 @@ h1 {
 }
 
 .searchBar {
-    width: 20px;
-    height: 20px;
+    width: 500px;
+    height: 50px;
     padding: 0;
-    font-size: 10px;
+    
+    font-size: 20px;
     background-repeat: no-repeat;
-    background-size: 20px 20px;
-    background-position: right center;
+    background-size: 50px 50px;
+    background-position: left center;
     border-width: 1px;
     border-style: solid;
     outline: 0;
     opacity: 0.5;
-    transition: all 1s;
+    transition: all .5s;
+	font-family: 'Muli Light', sans-serif;
 }
 
 .searchBar:hover {
     cursor: pointer;
     transition: all 0.5s;
-    background-position: right center;
+    background-position: left center;
     opacity: 1;
 }
 
 .searchBar:focus {
     cursor: text;
-    width: 100px;
-    padding: 0 25px 0 5px;
+    width: 500px;
+    padding: 0 25px 0 55px;
+    padding-left: 55px;
     opacity: 1;
 }
 

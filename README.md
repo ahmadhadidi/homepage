@@ -5,29 +5,34 @@ Homepage
 
 **Live Demo: [Dark](http://gokoururi.github.io/homepage/) - [Light](http://gokoururi.github.io/homepage/index-light.html)**
 
-This repository contains a custom homepage made using html, css and javascript (jQuery). Feel free to download and modify. Comments and suggestions appreciated. Please don't expect too much.
+This repository contains a custom homepage made using html, css and javascript (node.js). Feel free to download and modify. Comments and suggestions appreciated. Please don't expect too much.
 
 Features:
 * Flashy links
 * Flashy Slidy sublinks
-* Flashy Slidy searchbars
+* Flashy Slidy searchbars 
 * Randomly selected cute 2D girls
 * Column style links.
 * **New**: Light color theme. See [Live Demo](http://gokoururi.github.io/homepage/index-light.html)
-  * New directory structure for easier making and sharing themes.
 
-Customizing, adding mascots and themes
+Customizing and adding mascots
 ----
-To change current theme, replace its name in [home.html](home.html#L15-17)
 
-To customize mascots in `ruri-dark` theme, modify the array in [themes/ruri-dark/mascots.js](themes/ruri-dark/mascots.js):
+To customize mascots modify the following values in [javascript](js/scripts.js):
+
 ```javascript
-var mascotList = [ "ruri1.png", "ruri2.png", "ruri3.png" ];
+    var mascotEnable    = true;
+    var mascotPath      = "images/mascots/"
+    var mascotList      = [ 'ruri1.png', 'ruri2.png', 'ruri3.png' ];
 ```
 
-To make new theme, you can copy an existing one, and change images and [colors.css](themes/ruri-dark/colors.css) as you like.  
-Please note that entries in your theme's [mascots.js](themes/ruri-dark/mascots.js) should match with contents of [mascots/](themes/ruri-dark/mascots/) directory.  
-(Of course, above links use `ruri-dark` theme only as an example.)
+To modify the position of the box, change the ```margin: 10vh``` value in [css](css/general.css)
+
+To change the font of the entire page, change the ```font-family``` value in [css](css/general.css)
+
+The variable ```mascotList``` in [javascript](js/scripts.js) must contain the file name and its extension, I think using gifs gives more flavor to the page. I've included some galleries above the variable for you to try.
+
+I've added a bunch of search bars for my favorite websites.
 
 Disclaimer
 ----

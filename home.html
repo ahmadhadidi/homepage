@@ -4,43 +4,63 @@
         terms of the Do What The Fuck You Want To Public License, Version 2,
         as published by Sam Hocevar. See the COPYING file for more details. -->
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Welcome Home</title>
 
-        <link rel="stylesheet" style="text/css" href="general.css" />
+    <meta charset="utf-8">
+    <title>Welcome Home</title>
+    <link rel="icon" href="images/HO.ico" sizes="16x16 32x32 48x48 64x64" type="image/vnd.microsoft.icon" />
+    <link rel="stylesheet" style="text/css" href="css/general.css" />
+    <link rel="stylesheet" style="text/css" href="css/dark.css" title="Kuroneko" />
+    <link rel="alternate stylesheet" style="text/css" href="css/light.css" title="Kamineko" />
+    <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
 
-        <!-- To change theme, replace its name in following 4 lines  -->
-        <link rel="icon"                           href="themes/ruri-dark/favicon.ico" sizes="16x16 32x32 48x48 64x64" type="image/vnd.microsoft.icon" />
-        <link rel="stylesheet" style="text/css"    href="themes/ruri-dark/colors.css" />
-        <script type="text/javascript">var mascotPath = "themes/ruri-dark/images/mascots/";</script>
-        <script type="text/javascript"              src="themes/ruri-dark/mascots.js"></script>
-
-        <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
-        <script type="text/javascript" src="js/mascots-control.js"></script>
-    </head>
     <body>
         <main> <!-- Random mascot image will be set as background-image by javascript -->
             <header>
-                <h1>Welcome to the Internet, <span class="name-highlight">Goshujin-sama</span></h1>
+                <h1>Type unto me, <span class="highlite">Anon.</span></h1>
                 <p class="subtitle">Its not like I like you or anything</p>
             </header>
             <section class="searchContainer">
                 <form class="searchForm" method="get" action="https://google.com/search">
-                    <input class="searchBar search_google" type="text" name="q" placeholder="Google" autofocus="autofocus" search_/>
+                    <input class="searchBar google" type="text" name="q" placeholder="Google" autofocus="autofocus" />
                 </form>
+                <br>
+                <br>
                 <form class="searchForm" method="get" action="https://youtube.com/results">
-                    <input class="searchBar search_youtube" type="text" name="search_query" placeholder="Youtube" search_/>
+                    <input class="searchBar youtube" type="text" name="search_query" placeholder="Youtube" />
                 </form>
+                <br>
+                <br>
                 <form class="searchForm" method="get" action="https://en.wikipedia.org/w/index.php">
-                    <input class="searchBar search_wikipedia" type="text" name="search" placeholder="Wikipedia (en)" search_/>
+                    <input class="searchBar wikipedia" type="text" name="search" placeholder="Wikipedia" />
+                </form>
+                <br>
+                <br>
+                <form class="searchForm" method="get" action="http://thepiratebay.org/search.php">
+                    <input class="searchBar thepiratebay" type="text" name="q" placeholder="The Pirate Bay" />
+				</form>
+				<br>
+                <br>
+                <form class="searchForm" method="get" action="http://rarbg.to/torrents.php">
+                    <input class="searchBar rarbg" type="text" name="search" placeholder="RAR.BG" />
+				</form>
+				<br>
+                <br>
+                <form class="searchForm" method="get" action="http://dlcompare.com/search">
+                    <input class="searchBar dlcompare" type="text" name="q" placeholder="DLCompare" />
+                </form>
+                <br>
+                <br>
+                <form class="searchForm" method="get" action="http://subscene.com/subtitles/release">
+                    <input class="searchBar subscene" type="text" name="q" placeholder="Subscene" />
                 </form>
             </section>
             <nav>
                 <ul class="buttonList">
-                    <li class="button button_green"><a href="http://github.com/gokoururi/homepage">Github</a></li>
-                    <li class="button button_grey"><a href="#">Gelbooru</a></li>
-                    <li class="button button_grey buttonArrow"><a href="#">Duke of Earl</a>
+                    <li class="button buttonGreen"><a href="https://github.com/ahmadhadidi/homepage">Github</a></li>
+                    <li class="button buttonGrey"><a href="#">Gelbooru</a></li>
+                    <li class="button buttonGrey buttonArrow">
+                        <a href="#">Duke of Earl</a>
                         <ul>
                             <li><a href="#">When I hold you</a></li>
                             <li><a href="#">In my Arms</a></li>
@@ -50,16 +70,16 @@
                     </li>
                 </ul>
                 <ul class="columnList">
-                    <li class="column column_purple">
+                    <li class="column columnPurple">
                         <a>Resources</a>
                         <ul>
                             <li><a href="https://drive.google.com/folderview?id=0B_VmbVyD4eT3N1VUbGN4Wjd5OVE">Cute 2D Girls</a></li>
-                            <li><a href="https://developer.mozilla.org//">MDN</a></li>
+                            <li><a href="#">Empty</a></li>
                             <li><a href="https://wiki.installgentoo.com/">Install Gentoo</a></li>
                         </ul>
                     </li>
-                    <li class="column column_green">
-                        <a>4chon</a>
+                    <li class="column columnGreen">
+                        <a>4-see-han</a>
                         <ul>
                             <li><a href="http://boards.4chan.org/v/">Video Games</a></li>
                             <li><a href="http://boards.4chan.org/vg/">Video Game General</a></li>
@@ -67,7 +87,7 @@
                             <li><a href="http://boards.4chan.org/jp/">Otaku Culture</a></li>
                         </ul>
                     </li>
-                    <li class="column column_pink">
+                    <li class="column columnPink">
                         <a>Animution</a>
                         <ul>
                             <li><a href="http://bakabt.me">Bakabt</a></li>
@@ -81,3 +101,4 @@
         </main>
     </body>
 </html>
+
