@@ -24,7 +24,7 @@ Installation
 * If the path to the home page contains spaces, replace each space with ```%20```, e.g., ```file:///C:/Program%20Files/homepage-master/home.index```
 
 
-Customizing and adding mascots
+Customizing and Adding Mascots
 ----
 
 To customize mascots modify the following values in [javascript](js/scripts.js):
