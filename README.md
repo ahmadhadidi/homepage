@@ -1,7 +1,7 @@
 Homepage
 ====
 
-![alt tag](screenshots/preview.png "Homepage preview")
+![alt tag](screenshots/preview3.png "Homepage preview")
 
 **Live Demo: [Dark](http://gokoururi.github.io/homepage/) - [Light](http://gokoururi.github.io/homepage/index-light.html)**
 
@@ -26,11 +26,11 @@ To customize mascots modify the following values in [javascript](js/scripts.js):
     var mascotList      = [ 'ruri1.png', 'ruri2.png', 'ruri3.png' ];
 ```
 
-To modify the position of the box, change the ```margin: 10vh``` value in [css](css/general.css)
+To modify the position of the box, change the ```margin: 10vh``` value in [css/general.css](css/general.css)
 
-To change the font of the entire page, change the ```font-family``` value in [css](css/general.css)
+To change the font of the entire page, change the ```font-family``` value in [css/general.css](css/general.css)
 
-The variable ```mascotList``` in [javascript](js/scripts.js) must contain the file name and its extension, I think using gifs gives more flavor to the page. I've included some galleries above the variable for you to try.
+The variable ```mascotList``` in [js/scripts.js](js/scripts.js) must contain the file name and its extension, I think using gifs gives more flavor to the page. I've included some galleries above the variable for you to try.
 
 I've added a bunch of search bars for my favorite websites.
 
