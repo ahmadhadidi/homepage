@@ -15,6 +15,15 @@ Features:
 * Column style links.
 * **New**: Light color theme. See [Live Demo](http://gokoururi.github.io/homepage/index-light.html)
 
+Installation
+----
+* Click on the green "Clone or download" button and choose "Download ZIP".
+* Extract the file somewhere ```I will assume it's C:\```
+* Go to your browser and input ```file:///C:/homepage-master/home.index```
+* Customize the page by reading the section "Customizing and adding mascots".
+* If the path to the home page contains spaces, replace each space with ```%20```, e.g., ```file:///C:/Program%20Files/homepage-master/home.index```
+
+
 Customizing and adding mascots
 ----
 
